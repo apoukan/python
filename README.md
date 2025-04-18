@@ -1,19 +1,19 @@
-🔐 Mini Outils de Chiffrement/Déchiffrement AES en Python
+## 🔐 Mini Outils de Chiffrement/Déchiffrement AES en Python
 
 Ce dépôt contient deux scripts Python permettant de chiffrer et déchiffrer un fichier texte à l'aide de la bibliothèque pyaes en mode AES CTR. Il s'agit d'une démonstration simple de l'utilisation de la cryptographie symétrique pour la protection des données.
 
-## 📁 Contenu
+### 📁 Contenu
 encrypt_file.py : chiffre un fichier texte donné.
 decrypt_file.py : déchiffre un fichier précédemment chiffré avec le script précédent.
 
-## 📦 Prérequis
+### 📦 Prérequis
 
 Avant d'exécuter les scripts, installez la bibliothèque pyaes si elle n'est pas déjà installée :
 ```bash
 pip install pyaes
 ```
 
-### 🔐 Script de Chiffrement – encrypt_file.py
+## 🔐 Script de Chiffrement – encrypt_file.py
 Ce script :
 Lit le contenu d'un fichier texte (test.txt).
 Supprime le fichier original.
@@ -26,7 +26,7 @@ python encrypt_file.py
 ```
 Après exécution, un fichier test.txt.hacked sera généré.
 
-### 🔓 Script de Déchiffrement – decrypt_file.py
+## 🔓 Script de Déchiffrement – decrypt_file.py
 Ce script :
 Lit un fichier chiffré (test.txt.hacked).
 Déchiffre les données avec la même clé AES.
