@@ -1,4 +1,4 @@
-#🔐 Mini Outils de Chiffrement/Déchiffrement AES en Python
+🔐 Mini Outils de Chiffrement/Déchiffrement AES en Python
 
 Ce dépôt contient deux scripts Python permettant de chiffrer et déchiffrer un fichier texte à l'aide de la bibliothèque pyaes en mode AES CTR. Il s'agit d'une démonstration simple de l'utilisation de la cryptographie symétrique pour la protection des données.
 
