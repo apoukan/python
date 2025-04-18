@@ -39,7 +39,7 @@ python decrypt_file.py
 ```
 Après exécution, le fichier original test.txt est restauré.
 
-##⚠️ Attention
+## ⚠️ Attention
 Ces scripts sont des démonstrations pédagogiques. Ne pas les utiliser en production sans les adapter et renforcer la sécurité (notamment la gestion des clés).
 La clé de chiffrement est codée en dur dans les deux scripts. Il est recommandé de la rendre configurable (via un fichier de configuration ou une variable d’environnement) dans un cas réel.
 
